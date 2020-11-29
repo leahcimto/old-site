@@ -1,2 +1,2 @@
-# website
-This is my website! I have no idea what to put in it.
+# About 
+This is my website. It is kind of empty, and I am still working on adding some things to it.
