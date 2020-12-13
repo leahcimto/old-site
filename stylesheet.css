@@ -5,7 +5,7 @@ body {
         }
         ul.topNav {
             display: inline-block;
-            background-color: #b2b5cf;
+            background-color: #274d87;
             position: fixed;
             top: 0;
             padding: 0px;
@@ -15,7 +15,7 @@ body {
         ul.topNav li {
             margin: 0px;
             padding: 10px;
-            background-color: #2a2a5e;
+            background-color: #0d274f;
             display: block;
             float: left;
         }
