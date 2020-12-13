@@ -58,7 +58,7 @@ body {
         a {
           font-family: Verdana;
           color: powderblue;
-          underline: 1px;
+          underline: 1px solid powderblue;
         }
           
 
