@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 body {
             padding: 0px;
             padding-top: 50px;
             margin: 0px;
+            font-family:Raleway;
+            color:white;
         }
         ul.topNav {
             display: inline-block;
@@ -30,33 +34,12 @@ body {
             text-align: center;
             padding: 3px;
             background-color: #0d274f;
-            font-family: Verdana;
+            font-family: Raleway;
             color: white;
-        }
-        
-        p {
-          font-family: Verdana;
-          color: white;
-        }
-        
-        
-        h2 {
-          font-family: Verdana;
-          color: white;
-        }
-        
-        h3 {
-          font-family: Verdana;
-          color: white;
-        }
-
-        h4 {
-          font-family: Verdana;
-          color: white;
         }
 
         a {
-          font-family: Verdana;
+          font-family: Raleway;
           color: powderblue;
           underline: 1px solid powderblue;
         }
