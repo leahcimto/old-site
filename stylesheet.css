@@ -27,7 +27,7 @@ body {
             margin: 0px;
             font-family:Raleway;
             color: var(black);
-            background: var(white);
+            background: var(#f5f5f5);
 
         }
         ul.topNav {
