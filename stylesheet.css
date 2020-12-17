@@ -26,8 +26,8 @@ body {
             padding-top: 50px;
             margin: 0px;
             font-family:Raleway;
-            color: var(--text-color);
-            background: var(--bkg-color);
+            color: var(black);
+            background: var(white);
 
         }
         ul.topNav {
