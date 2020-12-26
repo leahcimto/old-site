@@ -1,47 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-body {
-        padding: 2px;
-        padding-top: 50px;
-        margin: 2px;
-        font-family:Raleway;
-        color: white;
-        background: black;
+* {
+    border-sizing: border-box;
+}
 
-        ul.topNav {
-            display: inline-block;
-            background-color: #274d87;
-            position: fixed;
-            top: 0;
-            padding: 0px;
-            margin: 0px;
-            width: 100%;
-        }
-        ul.topNav li {
-            margin: 0px;
-            padding: 10px;
-            background-color: #0d274f;
-            display: block;
-            float: left;
-        }
-        ul.topNav li a {
-            text-decoration: none;
-            color: white;
-            text-align: center;
-            font-size: 150%;
-        }
+body { 
+    padding: 2px;
+    padding-top: 50px;
+    margin: 2px;
+    font-family:Raleway;
+    color: white;
+    background: black;
+}
+
+ul.topNav {
+    display: inline-block;
+    background-color: #274d87;
+    position: fixed;
+    top: 0;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+ul.topNav li {
+    margin: 0px;
+    padding: 10px;
+    background-color: #0d274f;
+    display: block;
+    float: left;
+}
+ul.topNav li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    }
         
-        footer {
-            text-align: center;
-            padding: 3px;
-            background-color: #0d274f;
-            font-family: Raleway;
-            color: white;
-        }
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #0d274f;
+    font-family: Raleway;
+    color: white;
+}
 
-        a {
-          font-family: Raleway;
-          color: powderblue;
-          underline: 1px solid powderblue;
-        }
+a {
+    font-family: Raleway;
+    color: powderblue;
+    underline: 1px solid powderblue;
 }
