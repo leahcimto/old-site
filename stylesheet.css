@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-
 body {
-            padding: 2px;
-            padding-top: 50px;
-            margin: 2px;
-            font-family:Raleway;
-            color: white;
-            background: black;
+        padding: 2px;
+        padding-top: 50px;
+        margin: 2px;
+        font-family:Raleway;
+        color: white;
+        background: black;
 
-        }
         ul.topNav {
             display: inline-block;
             background-color: #274d87;
@@ -46,5 +44,4 @@ body {
           color: powderblue;
           underline: 1px solid powderblue;
         }
-          
-
+}
