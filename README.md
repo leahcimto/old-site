@@ -2,12 +2,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-This is my website. It is kind of empty, and I am still working on adding some things to it.
-
-# Credits
-Credit to these awesome people for contributing to this:
-- leahcimto (Owner)
-- MTM828 (Navagation bar)
+Heyo! This is leahcimto's website.
 
 ## Contributors ✨
 
