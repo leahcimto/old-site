@@ -1,9 +1,9 @@
 /*just saying, if u ever merge this then dont forget to delete the comments ive written in the source code*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');/*can u actually import stuff like that? interesting.*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 * {
-    border-sizing: border-box; /*this just aligns some stuff, it helps fix common bugs*/
+    box-sizing: border-box; /*this just aligns some stuff, it helps fix common bugs*/
 }
 
 :root {/*ok, so this is slightly complicated, only slightly. ive created css vars for some elements containing its color.
