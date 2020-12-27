@@ -16,6 +16,17 @@
         "design",
         "bug"
       ]
+    },
+    {
+      "login": "MTM828",
+      "name": "MTM828",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/71281115?v=4",
+      "profile": "http://mtm828.github.io",
+      "contributions": [
+        "ideas",
+        "code",
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
