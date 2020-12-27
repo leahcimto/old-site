@@ -27,9 +27,9 @@ body {
     margin: 2px;
     font-family: Raleway;
     /*so to get the val of a css var, u use the following syntax*/
-    color: --var(p);
+    color: var(--p);
     /*now the var changes while in dark mode, and so does the colour of elements!*/
-    background: --var(body);
+    background: var(--body);
 }
 
 /*althougn the following syntax can be used, there is an upside
@@ -75,6 +75,6 @@ footer {
 
 a {
     font-family: Raleway;
-    color: --var(a);
+    color: var(--a);
     underline: 1px solid powderblue;
 }
