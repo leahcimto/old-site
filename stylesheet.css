@@ -29,7 +29,7 @@ body {
     /*so to get the val of a css var, u use the following syntax*/
     color: var(--p);
     /*now the var changes while in dark mode, and so does the colour of elements!*/
-    background: var(--body);
+    background: var(--bodyBg);
 }
 
 /*althougn the following syntax can be used, there is an upside
