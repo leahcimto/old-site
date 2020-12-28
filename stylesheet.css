@@ -1,50 +1,83 @@
+/*just saying, if u ever merge this then dont forget to delete the comments ive written in the source code*/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+* {
+    box-sizing: border-box; /*this just aligns some stuff, it helps fix common bugs*/
+}
 
-body {
-            padding: 2px;
-            padding-top: 50px;
-            margin: 2px;
-            font-family:Raleway;
-            color: white;
-            background: black;
+:root {/*ok, so this is slightly complicated, only slightly. ive created css vars for some elements containing its color.
+       making them in the ':root' thingy makes them available to all elements and whatever, like the for all sprites thing
+       in scratch. read the rest of the code to understand the rest ^_^*/
+    --bodyBg: white;
+    --p: black;
+    --a: #72c8d2;
+}
+.darkMode {/*darkMode is a class, all elements get it when they're in dark mode, done using javascript. ill explain the js
+           later. ok, so without the class the vars r default, but elements with the class darkMode have their vars set
+           to the colour u want them to be in when dark mode is on.*/
+    --bodyBg: black;
+    --p: white;
+    --a: powderblue;
+}
 
-        }
-        ul.topNav {
-            display: inline-block;
-            background-color: #274d87;
-            position: fixed;
-            top: 0;
-            padding: 0px;
-            margin: 0px;
-            width: 100%;
-        }
-        ul.topNav li {
-            margin: 0px;
-            padding: 10px;
-            background-color: #0d274f;
-            display: block;
-            float: left;
-        }
-        ul.topNav li a {
-            text-decoration: none;
-            color: white;
-            text-align: center;
-            font-size: 150%;
-        }
+body { 
+    padding: 2px;
+    padding-top: 50px;
+    margin: 2px;
+    font-family: Raleway;
+    /*so to get the val of a css var, u use the following syntax*/
+    color: var(--p);
+    /*now the var changes while in dark mode, and so does the colour of elements!*/
+    background: var(--bodyBg);
+}
+
+/*althougn the following syntax can be used, there is an upside
+
+body {color: white;}
+body.darkMode {color: black;}
+
+imagine how many elements you could have, in an average site, you'd have at least 20 types of elements
+each has 5 about lines of code, 100 LINES?! r u flipping kidding me?!
+but with css vars, u dont have to write body.darkmode, so it saves you 25-50 lines of code!
+css vars rly help improve site performance 0(^-^)0*/
+
+ul.topNav {
+    display: inline-block;
+    background-color: #274d87;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+ul.topNav li {
+    margin: 0px;
+    padding: 10px;
+    background-color: #0d274f;
+    display: block;
+    float: left;
+}
+ul.topNav li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    }
         
-        footer {
-            text-align: center;
-            padding: 3px;
-            background-color: #0d274f;
-            font-family: Raleway;
-            color: white;
-        }
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #0d274f;
+    font-family: Raleway;
+    color: white;
+}
 
-        a {
-          font-family: Raleway;
-          color: powderblue;
-          underline: 1px solid powderblue;
-        }
-          
-
+a {
+    font-family: Raleway;
+    color: var(--a);
+    underline: 1px solid powderblue;
+}
