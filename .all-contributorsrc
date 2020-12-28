@@ -1,0 +1,38 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "leahcimto",
+      "name": "leahcimto",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/68165163?v=4",
+      "profile": "https://leahcimto.github.io",
+      "contributions": [
+        "ideas",
+        "code",
+        "design",
+        "bug"
+      ]
+    },
+    {
+      "login": "MTM828",
+      "name": "MTM828",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/71281115?v=4",
+      "profile": "http://mtm828.github.io",
+      "contributions": [
+        "ideas",
+        "code",
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "leahcimto.github.io",
+  "projectOwner": "leahcimto",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
